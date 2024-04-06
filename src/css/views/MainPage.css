@@ -1,0 +1,117 @@
+
+/* Left Circle */
+div.principlePage::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: radial-gradient(var(--c-third-main), var(--c-third-main), var(--c-four-main), var(--c-four-main));
+	clip-path:
+		/* circle(20% at 5% 15%) */
+		circle(20% at 10% 60%);
+	z-index: -1;
+}
+
+/* Right Circle */
+div.principlePage::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: radial-gradient(var(--c-second-main), var(--c-second-main), rgba(0, 21, 204, 0.3));
+	clip-path:
+		/* circle(25% at right 70%) */
+		circle(35% at right 20%);
+	z-index: -1;
+}
+
+div.principlePage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+div.principlePage>img.pictureJHM {
+	width: 100%;
+	height: auto;
+	max-height: 240px;
+	max-width: 240px;
+	border-radius: 50%;
+	border: 10px solid var(--c-five-main);
+	filter: grayscale(.5);
+	opacity: .9;
+	transition: all var(--duration-transition);
+	z-index: 1;
+}
+
+div.principlePage>img.pictureJHM:hover {
+	filter: grayscale(.2);
+	opacity: 1;
+}
+
+div.principlePage svg {
+	width: 100%;
+	height: auto;
+	max-width: 450px;
+}
+
+div.principlePage path {
+	stroke: var(--c-font-text);
+	fill: var(--c-font-text);
+	stroke-dasharray: 2000;
+	opacity: 10;
+	animation: animateFrm 3s cubic-bezier(0, .23, 1, .5);
+}
+
+div.principlePage #titlePageName {
+	animation: animateTitle 8s;
+	text-transform: uppercase;
+	margin: 10px auto;
+}
+
+div.principlePage p {
+	text-align: center;
+}
+
+div.principlePage p>span {
+	color: var(--c-second-main);
+	font-weight: bolder;
+	font-size: 15px;
+}
+
+div.principlePage .socialLinks {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 5px auto;
+}
+
+div.principlePage .socialLinks>.socialBox {
+	margin: 3vmin 1vmin;
+}
+
+div.principlePage .socialLinks>.socialBox>a>ion-icon {
+	font-size: 30px;
+	color: var(--c-second-main);
+	transition: all var(--duration-transition);
+}
+
+div.principlePage .socialLinks>.socialBox>a>ion-icon:hover {
+	color: var(--c-second-main);
+	transform: scale(1.2);
+}
+
+div.principlePage .buttons, a.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 10px;
+}
