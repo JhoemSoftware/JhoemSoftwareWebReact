@@ -9,7 +9,7 @@ export const Button = ({ text = 'button', url = '#', open = false }) => {
                     </a>
                     :
                     <a className="button" href={url}>
-                        <ion-icon name="eye-outline"></ion-icon>
+                        <ion-icon name="chevron-down-outline"></ion-icon>
                         {text}
                     </a>
             }           

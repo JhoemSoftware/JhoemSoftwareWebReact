@@ -28,8 +28,8 @@ export const MainPage = () => {
                 </div> */}
             </div>
             <div className="buttons">
+                <Button text='View Profile' url='#PerfilPage' open={false} />
                 <Button text='CV Preview' url='/JhonAlexMarinCV_WebDeveloper.pdf' open={ true }/>
-                <Button text='View Profile' open={false} />
             </div>
         </div>
     )

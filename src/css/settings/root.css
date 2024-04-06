@@ -38,38 +38,20 @@
 	--font-text: 'Quicksand', sans-serif;
 }
 
-@keyframes animateFrm {
-	0% {
-		opacity: 0;
-		fill: none;
-		stroke-dashoffset: 2500;
-	}
-
-	30% {
-		opacity: 10;
-		fill: none;
-		stroke-dashoffset: 2500;
-	}
-
-	90% {
-		fill: rgba(255, 255, 255, 0);
-	}
-
-	100% {
-		opacity: 10;
-		fill: linear-gradient(#0ba4e0, #000000);
-		stroke-dashoffset: 0;
-	}
+.sideOne {
+	--i: 0;
 }
 
-@keyframes animateTitle {
-	0% {
-		opacity: 0;
-	}
+.sideTwo {
+	--i: 1;
+}
 
-	100% {
-		opacity: 10;
-	}
+.sideThre {
+	--i: 2;
+}
+
+.sideFour {
+	--i: 3;
 }
 
 html {
@@ -111,5 +93,38 @@ a.button:hover {
 }
 
 a.button>ion-icon {
-	font-size: 15px;
+	font-size: 18px;
+}
+
+@keyframes animateTitle {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 10;
+	}
+}
+
+@keyframes animateFrm {
+	0% {
+		opacity: 0;
+		fill: none;
+		stroke-dashoffset: 2500;
+	}
+
+	30% {
+		opacity: 10;
+		fill: none;
+		stroke-dashoffset: 2500;
+	}
+
+	60% {
+		fill: rgba(255, 255, 255, 0);
+	}
+
+	100% {
+		opacity: 10;
+		stroke-dashoffset: 0;
+	}
 }
