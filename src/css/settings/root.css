@@ -38,20 +38,10 @@
 	--font-text: 'Quicksand', sans-serif;
 }
 
-.sideOne {
-	--i: 0;
-}
-
-.sideTwo {
-	--i: 1;
-}
-
-.sideThre {
-	--i: 2;
-}
-
-.sideFour {
-	--i: 3;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 html {
@@ -59,19 +49,30 @@ html {
 	scroll-behavior: smooth;
 }
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
 body {
 	background-size: 100%;
-	background: linear-gradient(to left, rgba(0, 21, 204, 0.7), var(--c-background), var(--c-background));
+	background: radial-gradient(var(--c-accent-medium), var(--c-background));
 	color: var(--c-font-text);
 	font-family: var(--font-text);
 	padding: 30px 20px;
 	text-shadow: .2px .5px #000;
+}
+
+::-webkit-scrollbar {
+	width: 7px;
+}
+
+::-webkit-scrollbar-track {
+	background: #555;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #121212;
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #242424;
 }
 
 a.button {

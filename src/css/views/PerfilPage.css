@@ -26,8 +26,8 @@ div#PerfilPage div.info {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 60%;
-    gap: 10px;
+    width: 70%;
+    gap: 15px;
 }
 
 div#PerfilPage div.info>img {
@@ -39,7 +39,7 @@ div#PerfilPage>.cube {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 80%;
+    width: 90%;
 }
 
 div#PerfilPage>.cube>figure {
