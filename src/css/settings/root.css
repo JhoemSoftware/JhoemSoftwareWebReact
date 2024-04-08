@@ -54,7 +54,7 @@ body {
 	background: radial-gradient(var(--c-accent-medium), var(--c-background));
 	color: var(--c-font-text);
 	font-family: var(--font-text);
-	padding: 30px 20px;
+	padding: 50px 20px;
 	text-shadow: .2px .5px #000;
 }
 
