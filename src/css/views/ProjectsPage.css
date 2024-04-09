@@ -1,3 +1,17 @@
+div#ProjectPage::before {
+    content: '';
+    position: absolute;
+    top: 10;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(var(--c-third-main),var(--c-third-main),var(--c-accent-medium),var(--c-accent-medium));
+    clip-path:
+        /* circle(20% at 5% 15%) */
+        circle(27% at 10% 60%);
+    z-index: -1;
+}
+
 div#ProjectPage {
     display: flex;
     justify-content: center;
