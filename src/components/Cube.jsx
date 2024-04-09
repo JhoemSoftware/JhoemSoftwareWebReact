@@ -1,26 +1,6 @@
-export const Cube = () => {
-    const skills = [
-        'git',
-        'docker',
-        'html',
-        'css',
-        'bootstrap',
-        'tailwind',
-        'js',
-        'ts',
-        'node',
-        'express',
-        'nest',
-        'handlebars',
-        'pug',
-        'react',
-        'next',
-        'vue',
-        'php',
-        'laravel',
-        'livewire',
-    ];
+import { skills } from './../helpers/skills.js';
 
+export const Cube = () => {
     return (
         <div className="cube">
             {
