@@ -17,7 +17,7 @@ div#ProjectPage {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
 }
 
 div.cardProject {
@@ -27,13 +27,13 @@ div.cardProject {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 300px;
+    width: 320px;
     border: 1px solid var(--c-third-main);
 }
 
 div.cardProject>div.card-project-header {
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 div.cardProject>div.card-project-header>img.projectImg {
@@ -47,7 +47,7 @@ div.cardProject>div.card-project-header>img.projectImg {
 div.cardProject>div.card-project-body {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 div.cardProject>div.card-project-body>p {
@@ -56,7 +56,7 @@ div.cardProject>div.card-project-body>p {
 
 div.cardProject>div.card-project-body>div.tecnologies-card-project {
     width: 100%;
-    background: linear-gradient(var(--c-first-main), var(--c-shadow-text-secondary));
+    background: rgb(211, 211, 211,.2);/*linear-gradient(var(--c-first-main), var(--c-shadow-text-secondary));*/
     text-align: center;
     padding: 10px 0;
     border-radius: 0 0 10px 10px;

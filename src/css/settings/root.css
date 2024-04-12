@@ -54,7 +54,7 @@ body {
 	background: radial-gradient(var(--c-accent-medium), var(--c-background));
 	color: var(--c-font-text);
 	font-family: var(--font-text);
-	padding: 50px 20px;
+	padding: 50px 20px 0;
 	text-shadow: .2px .5px #000;
 }
 
@@ -95,6 +95,23 @@ a.button:hover {
 
 a.button>ion-icon {
 	font-size: 18px;
+}
+
+.buttons, a.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+	gap: 10px;
 }
 
 @keyframes animateTitle {

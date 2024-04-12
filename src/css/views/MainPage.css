@@ -107,11 +107,3 @@ div.principlePage .socialLinks>.socialBox>a>ion-icon:hover {
 	color: var(--c-second-main);
 	transform: scale(1.2);
 }
-
-div.principlePage .buttons, a.button {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	gap: 10px;
-}
