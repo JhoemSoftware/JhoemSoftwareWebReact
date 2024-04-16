@@ -16,8 +16,8 @@ export const ProjectsPage = () => {
                                 <div className="card-project-body">
                                     <p>{p.description}</p>
                                     <div className="buttons">
-                                        <Button text='View GitHub' open={true} iconImg='git' url='https://github.com/JhoemSoftware/FullStack_GitHub' />
-                                        <Button text='View Site' open={true} iconImg='eye' url='https://fullstack-mern-github.onrender.com/' />
+                                        <Button text='View GitHub' open={true} iconImg='git' url={p.url_gitHub} />
+                                        <Button text='View Site' open={true} iconImg='eye' url={p.url_web} />
                                     </div>
                                     <div className="tecnologies-card-project">
                                         {
