@@ -39,33 +39,38 @@ div#PerfilPage>.cube {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 90%;
+    width: 85%;
+    margin: 2px auto;
 }
 
 div#PerfilPage>.cube>figure {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(-120deg, var(--c-four-main), var(--c-second-main));
-    box-shadow: 0 0 50px rgba(0, 21, 204, .8);
     border-radius: 10px;
-    width: 60px;
-    height: 60px;
-    transition: all .4s ease-in-out;
-    margin: 10px 3px;
+    width: 65px;
+    height: 65px;
+    margin: 10px 5px;
+    transition: var(--duration-transition);
+    background: rgba(45,45,45,.3);
+    border-top: 1px solid rgba(255, 255, 255, .5);
+    border-left: 1px solid rgba(255, 255, 255, .5);
+    box-shadow: 0 0 10px var(--c-accent-lighter);
+    backdrop-filter: blur(3px);
 }
 
 div#PerfilPage>.cube>figure:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 0 20px var(--c-four-main);
+    /*transform: translateY(-5px);*/
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 0 0 30px rgba(255, 255, 255, .7);
     filter: saturate(1);
 }
 
 div#PerfilPage>.cube>figure>img {
-    filter: grayscale(.7);
-    transition: all .3s ease-in-out;
-    width: 40px;
-    height: 40px;
+    filter: grayscale(.3);
+    width: 45px;
+    height: 45px;
 }
 
 div#PerfilPage>.cube>figure>img:hover {
