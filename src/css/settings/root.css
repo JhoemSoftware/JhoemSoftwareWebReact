@@ -32,10 +32,13 @@
 	--c-accent-darker: rgba(0, 21, 204, 0.5);
 
 	/* Transitions */
-	--duration-transition: .4s ease-in-out;
+	--duration-transition: all .3s ease-in-out;
 
 	/* Fonts Text */
 	--font-text: 'Quicksand', sans-serif;
+
+	/* Border */
+	--border-rds: 20px;
 }
 
 * {
@@ -77,14 +80,14 @@ body {
 
 a.button {
 	text-decoration: none;
-	background: linear-gradient(#0ba4e0, rgba(0, 21, 204, 0.8));
+	background: linear-gradient(#0ba4e0, rgba(0, 21, 204, 0.9));
 	color: var(--c-font-text);
 	padding: 10px 15px;
-	font-weight: lighter;
-	font-size: 11px;
+	font-weight: 100;
+	font-size: 12px;
 	letter-spacing: 1.5px;
-	border-radius: 20px;
-	transition: .3s all ease-in-out;
+	border-radius: var(--border-rds);
+	transition: var(--duration-transition);
 }
 
 a.button:hover {
@@ -112,6 +115,8 @@ footer {
 	align-items: center;
 	margin: 20px;
 	gap: 10px;
+	font-weight: 100;
+	letter-spacing: 1px;
 }
 
 @keyframes animateTitle {
