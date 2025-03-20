@@ -1,5 +1,5 @@
 <p align='center'>
-<img src='wallpaper.png' width='180'/>
+<img src='./public/wallpaper.png' width='180'/>
 </p>
 
 <h1 align='center'>Jhoem Software Web Page</h1>
