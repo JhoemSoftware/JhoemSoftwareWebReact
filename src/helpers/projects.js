@@ -15,7 +15,7 @@ export const projects = [
             'tailwind'
         ]
     },
-    {
+   /*  {
         id: 2,
         name: 'Face Cute',
         img: 'project2',
@@ -29,5 +29,5 @@ export const projects = [
             'php',
             'js'
         ]
-    },
+    }, */
 ];
