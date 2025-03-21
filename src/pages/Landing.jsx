@@ -1,4 +1,4 @@
-import ExperiencePage from './ExperiencePage';
+import { ExperiencePage }  from './ExperiencePage';
 import { MainPage } from './MainPage';
 import { PerfilPage } from './PerfilPage';
 import { ProjectsPage } from './ProjectsPage';
