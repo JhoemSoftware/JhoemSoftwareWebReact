@@ -13,7 +13,7 @@ export const ProjectsPage = () => {
                                     <img src={`/images/projects/${p.img}.webp`} alt="Project Image" className="projectImg" width={200} height={200} />
                                     <div className="tecnologies-card-project">
                                         {
-                                            p.tecnologies.map(pt => <img key={pt} src={`/images/icons/${pt}.webp`} alt="Icon Project Tecnology" width={40} height={40} />)
+                                            p.tecnologies.map(pt => <img key={pt} src={`/images/icons/${pt}.png`} alt="Icon Project Tecnology" width={40} height={40} />)
                                         }
                                     </div>
                                 </div>
