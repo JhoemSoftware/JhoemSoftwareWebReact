@@ -27,7 +27,7 @@ div#ExperiencePage>div.infoExperiences {
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-    gap: 40px;
+    gap: 30px;
     width: 80%;
 }
 
@@ -49,7 +49,8 @@ div#ExperiencePage div.experienceCard {
 div#ExperiencePage div.experienceCard div.content {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    justify-content: center;
+    gap: 15px;
     text-align: left;
 }
 
@@ -58,5 +59,11 @@ div#ExperiencePage div.experienceCard>img {
     width: 80px;
     height: auto;
     margin-bottom: 20px;
-    /* max-height: 70px; */
+}
+
+div#ExperiencePage div.experienceCard div.tecnologies-experiences>img {
+    filter: grayscale(.5);
+    width: 30px;
+    margin: 0 5px;
+    height: auto;
 }

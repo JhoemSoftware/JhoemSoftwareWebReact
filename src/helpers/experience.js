@@ -3,7 +3,7 @@ export const expeciences = [
         id: 4,
         name: 'Fenalco Antioquia',
         img: 'experience4',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repudiandae voluptates voluptas dolorem expedita esse eum',
+        description: 'There I have been able to acquire great experience in technological services related to credit risk centers, developing processes, improvements and automations for the most important credit risk center in the country.',
         date_in: 'Feb 2020',
         date_out: 'Present',
         url_web: 'https://www.fenalcoantioquia.com/',
@@ -11,41 +11,41 @@ export const expeciences = [
             'php',
             'js',
             'laravel',
-            'docker',
+            'vue',
             'react',
-            'vue'
+            'docker',
         ]
     },
     {
         id: 3,
         name: 'OPA Soluciones',
         img: 'experience3',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repudiandae voluptates voluptas dolorem expedita esse eum',
+        description: 'There I had the opportunity to learn about the functioning of credit, technology and operation of cooperative and financial entities in the country.',
         date_in: 'Aug 2019',
         date_out: 'Feb 2020',
         url_web: 'https://www.opa.com.co/',
         tecnologies: [
             'c_sharp',
+            'java',
+            'laravel',
             'html',
             'css',
             'js',
-            'laravel',
-            'java'
         ]
     },
     {
         id: 2,
         name: 'Tera Click',
         img: 'experience2',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repudiandae voluptates voluptas dolorem expedita esse eum',
+        description: 'In that place I had the opportunity to develop several websites for different clients since it was a company that provided this service.',
         date_in: 'May 2019',
         date_out: 'Aug 2019',
         url_web: '#',
         tecnologies: [
+            'wordpress',
+            'php',
             'html',
             'css',
-            'php',
-            'wordpress',
             'js',
         ]
     },
@@ -53,17 +53,18 @@ export const expeciences = [
         id: 1,
         name: 'Conocimiento Competitivo',
         img: 'experience1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repudiandae voluptates voluptas dolorem expedita esse eum',
+        description: "There I had the opportunity to develop the website as well as an augmented reality app for the company's internal use.",
         date_in: 'Feb 2019',
         date_out: 'May 2019',
         url_web: 'https://conocimientocompetitivo.com/',
         tecnologies: [
             'android',
             'java',
-            'c_sharp',
             'unity',
+            'c_sharp',
+            'html',
+            'css',
             'js',
-            'wordpress'
         ]
     },
 ];

@@ -5,7 +5,7 @@ export const ExperiencePage = () => {
         <div id="ExperiencePage">
             <div className="infoExperiences">
                 <h1>Work Experiences 👨🏻‍💻</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repudiandae voluptates voluptas dolorem expedita esse eum, et delectus impedit asperiores incidunt dolorum cumque nobis sunt? Impedit sed rerum eligendi ipsa!</p>
+                <p>Below you will find my work experience. In each one I specify the time worked and the technologies with which I have worked in that place.</p>
                 <div className="works">
                     {
                         expeciences.map((e) =>
@@ -14,6 +14,11 @@ export const ExperiencePage = () => {
                                 <div className="content">
                                     <h4>{e.name}</h4>
                                     <p>{e.description}</p>
+                                    <div className="tecnologies-experiences">
+                                        {
+                                            e.tecnologies.map(pt => <img key={pt} src={`/images/icons/${pt}.png`} alt="Icon Tecnology" width={40} height={40} />)
+                                        }
+                                    </div>
                                     <small>{e.date_in} - {e.date_out}</small>
                                 </div>
                             </div>
