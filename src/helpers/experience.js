@@ -6,57 +6,56 @@ export const expeciences = [
         description: 'MERN Full-Stack App where we can search for popular GitHub repositories',
         url_web: 'https://fullstack-mern-github.onrender.com/',
         tecnologies: [
-            'mongo',
-            'express',
-            'react',
-            'node',
+            'android',
+            'java',
+            'c_sharp',
+            'unity',
             'js',
-            'tailwind'
+            'wordpress'
         ]
     },
     {
         id: 2,
-        name: 'Conocimiento Competitivo',
+        name: 'Tera Click',
         img: 'experience2',
         description: 'MERN Full-Stack App where we can search for popular GitHub repositories',
         url_web: 'https://fullstack-mern-github.onrender.com/',
         tecnologies: [
-            'mongo',
-            'express',
-            'react',
-            'node',
+            'html',
+            'css',
+            'php',
+            'wordpress',
             'js',
-            'tailwind'
         ]
     },
     {
         id: 3,
-        name: 'Conocimiento Competitivo',
+        name: 'OPA Soluciones',
         img: 'experience3',
         description: 'MERN Full-Stack App where we can search for popular GitHub repositories',
         url_web: 'https://fullstack-mern-github.onrender.com/',
         tecnologies: [
-            'mongo',
-            'express',
-            'react',
-            'node',
+            'c_sharp',
+            'html',
+            'css',
             'js',
-            'tailwind'
+            'laravel',
+            'java'
         ]
     },
     {
         id: 4,
-        name: 'Conocimiento Competitivo',
+        name: 'Fenalco Antioquia',
         img: 'experience4',
         description: 'MERN Full-Stack App where we can search for popular GitHub repositories',
         url_web: 'https://fullstack-mern-github.onrender.com/',
         tecnologies: [
-            'mongo',
-            'express',
+            'angular',
             'react',
+            'vue',
             'node',
-            'js',
-            'tailwind'
+            'laravel',
+            'docker'
         ]
     },
 ];
