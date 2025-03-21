@@ -69,8 +69,8 @@ div#PerfilPage>.cube>figure:hover {
 
 div#PerfilPage>.cube>figure>img {
     filter: grayscale(.3);
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
 }
 
 div#PerfilPage>.cube>figure>img:hover {
