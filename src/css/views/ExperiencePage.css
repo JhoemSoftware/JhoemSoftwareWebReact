@@ -1,45 +1,62 @@
+div#ExperiencePage::before {
+    content: '';
+    position: absolute;
+    top: 20;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(var(--c-four-main),var(--c-first-main));
+    clip-path:
+        /* circle(20% at 5% 15%) */
+        circle(27% at 60% 50%);
+    z-index: -1;
+}
+
 div#ExperiencePage {
 	display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
-    padding: 20px 0;
+    margin: 30px 0;
 }
 
 div#ExperiencePage>div.infoExperiences {
     display: flex;
     flex-direction: column;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
     gap: 40px;
-    padding: 90px 0;
-    width: 70%;
+    width: 80%;
 }
 
-div#ExperiencePage h1{
-	text-align: left !important;
+div#ExperiencePage div.works {
+    /* display: flex; */
+    width: 80%;
 }
 
-div.works {
-    display: flex;
-}
-
-div.experienceCard {
+div#ExperiencePage div.experienceCard {
     text-align: center;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap:10px;
-    width: 100px;
-    margin:  20px 40px 0 40px;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+    backdrop-filter: blur(2px);
 }
 
-div.experienceCard>img {
+div#ExperiencePage div.experienceCard div.content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: left;
+}
+
+div#ExperiencePage div.experienceCard>img {
     filter: grayscale(.8);
     width: 80px;
     height: auto;
+    margin-bottom: 20px;
     /* max-height: 70px; */
 }

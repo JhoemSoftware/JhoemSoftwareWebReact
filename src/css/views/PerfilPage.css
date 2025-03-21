@@ -8,7 +8,7 @@ div#PerfilPage::before {
     background: linear-gradient(var(--c-five-main), var(--c-accent-medium));
     clip-path:
         /* circle(20% at 5% 15%) */
-        circle(20% at 90% 65%);
+        circle(23% at 75% 60%);
     z-index: -1;
 }
 

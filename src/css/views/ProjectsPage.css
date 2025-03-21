@@ -23,7 +23,7 @@ div#ProjectPage {
     padding-bottom: 30px;
 }
 
-div.cardProject {
+div#ProjectPage div.cardProject {
     width: 300px;
     height: fit-content;
     border-radius: var(--border-rds);
@@ -36,32 +36,32 @@ div.cardProject {
     /*border: 1px solid var(--c-third-main);*/
 }
 
-div.cardProject>div.card-header>img.projectImg {
+div#ProjectPage div.cardProject>div.card-header>img.projectImg {
     width: 100%;
     border-radius: 20px 20px 0 0;
 }
 
-div.cardProject>div.card-header>div.tecnologies-card-project {
+div#ProjectPage div.cardProject>div.card-header>div.tecnologies-card-project {
     width: 100%;
     padding: 10px 0;
 }
 
-div.cardProject>div.card-header>div.tecnologies-card-project>img {
+div#ProjectPage div.cardProject>div.card-header>div.tecnologies-card-project>img {
     width: 43px;
     filter: saturate(2);
     margin: 0 2px;
 }
 
-div.cardProject>div.card-body {
+div#ProjectPage div.cardProject>div.card-body {
     margin: 5px auto;
     width: 85%;
 }
 
-div.cardProject>div.card-body p {
+div#ProjectPage div.cardProject>div.card-body p {
     text-align: left;
     margin: 15px 0;
 }
 
-div.cardProject>div.card-footer {
+div#ProjectPage div.cardProject>div.card-footer {
     padding: 0 0 20px;
 }
