@@ -8,7 +8,7 @@ div#ProjectPage::before {
     background: radial-gradient(var(--c-second-main) 50%, var(--c-accent-darker));
     clip-path:
         /* circle(20% at 5% 15%) */
-        circle(35% at 15% 65%);
+        circle(30% at 15% 65%);
     z-index: -1;
 }
 
@@ -17,14 +17,15 @@ div#ProjectPage {
     margin: 5px auto;
     display: flex;
     justify-content: center;
-    align-items: start;
+    flex-direction: column;
+    align-items: center;
     flex-wrap: wrap;
     gap: 50px;
     padding-bottom: 30px;
 }
 
 div#ProjectPage div.cardProject {
-    width: 300px;
+    width: 500px;
     height: fit-content;
     border-radius: var(--border-rds);
     background-color: rgba(45, 45, 45, .1);
@@ -49,7 +50,7 @@ div#ProjectPage div.cardProject>div.card-header>div.tecnologies-card-project {
 div#ProjectPage div.cardProject>div.card-header>div.tecnologies-card-project>img {
     width: 43px;
     filter: saturate(2);
-    margin: 0 2px;
+    margin: 0 15px;
 }
 
 div#ProjectPage div.cardProject>div.card-body {
@@ -64,4 +65,11 @@ div#ProjectPage div.cardProject>div.card-body p {
 
 div#ProjectPage div.cardProject>div.card-footer {
     padding: 0 0 20px;
+}
+
+footer {
+    margin-top: 50px;
+    display: flex;
+    justify-items: baseline;
+    gap: 30px;
 }

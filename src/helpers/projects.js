@@ -7,11 +7,11 @@ export const projects = [
         url_github: 'https://github.com/JhoemSoftware/FullStack_GitHub',
         url_web: 'https://fullstack-mern-github.onrender.com/',
         tecnologies: [
-            'mongo',
-            'express',
-            'react',
-            'node',
             'js',
+            'node',
+            'express',
+            'mongo',
+            'react',
             'tailwind'
         ]
     },

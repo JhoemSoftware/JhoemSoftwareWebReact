@@ -5,6 +5,7 @@ export const ProjectsPage = () => {
     return (
         <>
             <div id="ProjectPage">
+            <h1>Personal Projects 🧑🏻‍💻</h1>
                 {
                     projects.map((p) =>
                         <div className="cardProject" key={p.id}>
@@ -33,14 +34,17 @@ export const ProjectsPage = () => {
                 }
             </div>
             <footer>
-                <h3>Let's work together!</h3>
+                {/* <h3>Let's work together!</h3>
                 <p>
                     I like challenges, so don't ask me if something can be done, just let me know when we start
                     programming 😎
+                </p> */}
+                <p>
+                    Don't tell God how big the bug is 🐞, show the bug ... how big God is 😀.
                 </p>
+                <small class="footerFirma">Built with ❤️ by <b>JhoemSoftware</b></small>
                 {/* <small>Me gustan los retos y los desafíos por lo cual no me preguntes si algo se puede hacer, mejor
                     indícame cuando comenzamos a programar 😎</small> */}
-                <small class="footerFirma">Built with ❤️ by <b>JhoemSoftware</b></small>
             </footer>
         </>
     )
