@@ -161,3 +161,18 @@ footer {
 		stroke-dashoffset: 0;
 	}
 }
+
+@media (max-width: 610px) {
+    div#ExperiencePage div.experienceCard {
+        flex-wrap: wrap;
+    }
+
+	div.principlePage div.buttons {
+		margin-top: 15px;
+	}
+
+	div#ProjectPage div.card-footer>div.buttons {
+		display: flex;
+		flex-direction: column;
+	}
+}
