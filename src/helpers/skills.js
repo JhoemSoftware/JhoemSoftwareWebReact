@@ -17,7 +17,7 @@ export const skills = [
     'express',
     'nest',
     'react',
-    'next',
+    //'next',
     'vue',
     'laravel',
     'livewire',
@@ -25,5 +25,5 @@ export const skills = [
     'leptos',
     'yew',
     'handlebars',
-    'pug',
+    //'pug',
 ];
